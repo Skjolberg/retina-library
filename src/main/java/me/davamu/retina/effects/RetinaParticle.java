@@ -7,7 +7,7 @@ import org.bukkit.Location;
 
 @Getter
 @Setter
-public class ParticleUtil {
+public class RetinaParticle {
 
     private String name;
     private float speed;
@@ -15,14 +15,14 @@ public class ParticleUtil {
     private Color color;
     private Location location;
 
-    public ParticleUtil() {
+    public RetinaParticle() {
         this.name = "";
         this.speed = 0;
         this.count = 0;
         this.color = Color.WHITE;
     }
 
-    public ParticleUtil(String name, float speed, int  count, Color color) {
+    public RetinaParticle(String name, float speed, int  count, Color color) {
         this.name = name;
         this.speed = speed;
         this.count = count;
